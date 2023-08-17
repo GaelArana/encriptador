@@ -5,7 +5,6 @@ const ayudaDesencriptar = document.getElementById("ayudaDesencriptar")
 
 var noise = new Audio()
 noise.src = "multimedia/meow sound.mp3"
-noise.volume = 0.5
 
 var inputOriginal = document.getElementById("mensajeEntrada")
 var patronEncriptamiento = document.getElementById("claveEncriptacion")

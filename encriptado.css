@@ -1,0 +1,275 @@
+body {
+    background-image: url("multimedia/08ebba5e4d2d57f8767d1f37c480eee7.jpg");
+    background-size: 100px;
+    font-family: Arial, sans-serif;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.errorMensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+}
+
+.contenedor-errorMensaje {
+    max-width: 500px;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #ff6700;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;  
+}
+
+.contenedor-errorMensaje h2 {
+    font-size: 24px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.contenedor-errorMensaje button {
+    height: 40px;
+    padding: 5px;
+    background-color: #e18f32;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.907);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-errorMensaje button:hover {
+    background-color: #e13232;
+}
+
+.errorClave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contenedor-errorClave {
+    max-width: 500px;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #ff6700;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;  
+}
+
+.contenedor-errorClave h2 {
+    font-size: 24px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.contenedor-errorClave button {
+    padding:5px;
+    background-color: #e18f32;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.907);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-errorClave button:hover {
+    background-color: #e13232;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(73, 151, 241);
+    max-width: 300px;
+    min-width: 250px;
+    max-height: 500px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px auto;
+    border: 5px rgb(0, 52, 100) solid;
+    border-radius: 20%;
+    padding: 50px;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mensajeEntrada{
+   width: 200px;
+   height: 90px;
+   margin-top: 5px;
+   text-align: center;
+
+   background-color: rgb(120, 215, 253);
+   border: 5px rgb(67, 48, 243) solid;
+   border-radius: 15%;
+}
+
+.patronClave{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#claveEncriptacion{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    color :rgb(0, 0, 0);
+    background-color: rgb(255, 196, 174);
+    border: 5px rgb(192, 104, 3) solid;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#button2{
+    margin-left: 10px;
+}
+
+#botones{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+input{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(142, 255, 255);
+    border-radius: 20%;
+}
+
+.ayuda{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(200, 211, 211);
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ayuda:hover{
+    background-color: rgb(223, 121, 5);
+    border:5px #fff solid;
+    color: rgb(255, 255, 255);
+}
+
+.ayudaEncriptar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+}
+
+.ayudaDesencriptar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+}
+
+.contenedor-ayudaEncriptar {
+    max-width: 200px;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #1900ff;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;  
+}
+
+.contenedor-ayudaEncriptar h2 {
+    font-size: 24px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+button:hover{
+   background-color: rgb(55, 0, 255);
+   color: rgb(255, 255, 255);
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mensajeEncriptado{
+    width: 180px;
+    height: 50px;
+    margin-top: 5px;
+    text-align: center;
+
+    background-color: rgb(120, 215, 253);
+    border: 5px rgb(67, 48, 243) solid;
+    border-radius: 15%;
+}

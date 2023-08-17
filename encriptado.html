@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./encriptado.css">
+    <title>Encriptar mensaje</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="errorMensaje" id="errorMensaje">
+            <div class="contenedor-errorMensaje">
+                <h2>Alerta</h2>
+                <img id="alerta" src="multimedia/2556946.png">
+                <br>
+                <br>Por favor, ingrese texto para continuar.
+                <div>
+                    <button onclick="mensajesPop()" id="volver">Entendido</button>
+                </div>
+            </div>
+        </div>
+        <div class="errorClave" id="errorClave">
+            <div class="contenedor-errorClave">
+                <h2>Alerta</h2>
+                <img id="alerta" src="multimedia/2556946.png">
+                <br>
+                <br>Por favor, ingrese un número que sea entero y no sea menor a 0.
+                <div>
+                    <button onclick="mensajesPop()" id="volver">Entendido</button>
+                </div>
+            </div>
+        </div>
+        <div class="ayudaEncriptar" id="ayudaEncriptar">
+            <div class="contenedor-ayudaEncriptar">
+                <h2>Encriptar</h2>
+                <img id="alerta" src="multimedia/encriptado.png">
+                <br>
+                <p>Para encriptar un mensaje, ingresa una palabra o texto en la caja de "Mensaje Entrada", luego, ingresa la secuencia de encriptamiento, esta se encargara de modificar cada caracter alfabetico con un cierto patrón.
+                <div>
+                    <button onclick="mensajesPop()" id="volver">Entendido</button>
+                </div>
+            </div>
+        </div>
+        <div class="ayudaDesencriptar" id="ayudaDesencriptar">
+            <div class="contenedor-ayudaEncriptar">
+                <h2>Desencriptar</h2>
+                <img id="alerta" src="multimedia/descifrar.png">
+                <br>
+                <p>Para desencriptar un mensaje, solicita el mensaje cifrado y la secuencia de encriptado, luego, ingresalos y da clic en el botón de "Desencriptar" para así, obtener el mensaje original.
+                <div>
+                    <button onclick="mensajesPop()" id="volver">Entendido</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <u><h1>Encriptación</h1></u>
+        </div>
+        <div class="entrada">
+            <label id="" for="" >Mensaje Entrada</label>
+            <input required id="mensajeEntrada" type="text">
+        </div>
+        <div class="patronClave">
+            <label id="clave" for="" ><u>Secuencia de encriptado</u></label>
+            <input required id="claveEncriptacion" type="number" value="1">
+        </div>
+        <div class="botones">
+            <button class="ayuda" id="ayuda1" onclick="ayudaEncriptacion()">?</button>
+            <button id="button1" onclick="encriptar()">Encriptar</button>
+            <button id="button2" onclick="desEncriptar()">Desencriptar</button>
+            <button class="ayuda" id="ayuda1" onclick="ayudaDesencriptacion()">?</button>
+        </div>
+        <div class="resultado" id="resultado">
+            <label id="mensajeRes" for="" >Mensaje Encriptado</label>
+            <input disabled id="mensajeEncriptado" type="text">
+        </div>
+    </div>
+    <script src="./encriptado.js"></script>
+</body>
+</html>
